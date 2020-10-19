@@ -118,6 +118,7 @@ h3 {
 }
 
 .section__title {
+  max-width: 500px;
   margin-bottom: 0.25em;
 }
 
@@ -445,6 +446,43 @@ header {
   opacity: 0.75;
 }
 
+/* Indvidual portfolio item sytles */
+
+.portfolio-item-individual {
+  padding: 0 2em 2em;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.portfolio-item-individual p {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.portfolio-item-individual p span a {
+  color: white;
+}
+
+.portfolio-item-individual p span a:hover {
+  color: greenyellow;
+}
+
+.portfolio-item-individual ul {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.portfolio-item-individual img {
+  display: block;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
 /* Footer */
 
 .footer {
@@ -490,43 +528,6 @@ header {
   padding: 0.5em;
 }
 
-/* Indvidual portfolio item sytles */
-
-.portfolio-item-individual {
-  padding: 0 2em 2em;
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-.portfolio-item-individual p {
-  width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.portfolio-item-individual p span a {
-  color: white;
-}
-
-.portfolio-item-individual p span a:hover {
-  color: greenyellow;
-}
-
-.portfolio-item-individual ul {
-  width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.portfolio-item-individual img {
-  display: block;
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-}
-
 .button-area {
   text-align: center;
   width: 300px;
@@ -551,11 +552,13 @@ header {
 
 .video-container {
   text-align: center;
-  width: 50%;
+  /* width: 50%; */
   margin: 20px auto 45px auto;
 }
 
 video {
   background-color: white;
   outline: none;
+  max-width: 95%;
+  height: auto;
 }
